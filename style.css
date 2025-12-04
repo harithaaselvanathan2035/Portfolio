@@ -187,58 +187,8 @@ body{
 
     
 }
-/* Extra Small Devices – Mobile (<450px) */
+
 @media screen and (max-width: 450px){
-
-    /* Main text section */
-    .main {
-        margin: 10px;
-        text-align: center;
-    }
-
-    .name {
-        font-size: 30px;   /* smaller for very small screens */
-        text-align: center;
-        line-height: 1.1;
-    }
-
-    /* Buttons (LinkedIn, GitHub, Explore More) */
-    .btn {
-        font-size: 14px;
-        padding: 8px 12px;
-        margin: 6px auto;
-        display: inline-block;
-        z-index: 999;
-    }
-
-    /* Profile image center and smaller */
-    .image {
-        margin-top: 10px;
-        margin-left: 0;
-        text-align: center;
-        padding: 0;
-    }
-
-    .pics img {
-        height: 180px;
-        width: 180px;
-        border-radius: 100% 100% 100% 10%;
-    }
-
-    /* Developer Tag under image */
-    .tag {
-        margin: 15px auto 0;
-        width: 220px;
-        font-size: 12px;
-        padding: 8px 10px;
-        border-radius: 10px;
-        display: block;
-        text-align: center;
-        z-index: 1;   /* keep above image */
-    }
-}
-/* Ultra–small screens: fit entire layout inside one screen */
-@media screen and (max-width: 400px){
 
     body{
         overflow-x: hidden; /* Prevent horizontal scroll */
@@ -422,7 +372,7 @@ body{
          margin-left: 10px;
   }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
 
     body{
         overflow-x: hidden; /* Prevent horizontal scroll */
@@ -644,7 +594,7 @@ body{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
 
     body{
         overflow-x: hidden; /* Prevent horizontal scroll */
@@ -803,7 +753,7 @@ body{
         text-align: justify;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
 
     body{
         overflow-x: hidden;
@@ -1007,7 +957,7 @@ input, textarea, button {
     color: white;
     padding: 10px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 
   /* Contact heading */
   .contact h3 {
@@ -1096,4 +1046,5 @@ input, textarea, button {
     display: none;
   }
 }
+
 
