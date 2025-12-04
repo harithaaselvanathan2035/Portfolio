@@ -380,6 +380,7 @@ body{
     .im {
     margin: 20px auto;
     text-align: center;
+    
   }
 
   .im-one img,
@@ -392,11 +393,11 @@ body{
   }
   .im-one img{
     border-radius: 100% 100% 10% 100%;
-    margin-top: -910px;
-    margin-left: 20px;
+    margin-top: -810px;
+    margin-left: 40px;
   }
   .im-two img {
-    margin-left: 170px;
+    margin-left: 190px;
     margin-top: -135px;
     border-radius: 100% 100% 100% 10%;
   }
@@ -965,7 +966,9 @@ input, textarea, button {
     margin: 10px 0 10px 0;
     margin-left: 75px;
   }
-
+.contact{
+    margin-left: 30px;
+}
 
  .num, .mail, .in, .hub {
       width: 85%;                     /* reduced size */
@@ -1046,5 +1049,3 @@ input, textarea, button {
     display: none;
   }
 }
-
-
