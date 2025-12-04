@@ -187,6 +187,140 @@ body{
 
     
 }
+/* Extra Small Devices – Mobile (<450px) */
+@media screen and (max-width: 450px){
+
+    /* Main text section */
+    .main {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .name {
+        font-size: 30px;   /* smaller for very small screens */
+        text-align: center;
+        line-height: 1.1;
+    }
+
+    /* Buttons (LinkedIn, GitHub, Explore More) */
+    .btn {
+        font-size: 14px;
+        padding: 8px 12px;
+        margin: 6px auto;
+        display: inline-block;
+        z-index: 999;
+    }
+
+    /* Profile image center and smaller */
+    .image {
+        margin-top: 10px;
+        margin-left: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    .pics img {
+        height: 180px;
+        width: 180px;
+        border-radius: 100% 100% 100% 10%;
+    }
+
+    /* Developer Tag under image */
+    .tag {
+        margin: 15px auto 0;
+        width: 220px;
+        font-size: 12px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        display: block;
+        text-align: center;
+        z-index: 1;   /* keep above image */
+    }
+}
+/* Ultra–small screens: fit entire layout inside one screen */
+@media screen and (max-width: 340px){
+
+    body{
+        overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+
+    /* Main container */
+    .main{
+        margin: 20px auto 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Name text */
+    .name{
+        font-size: 38px;
+        line-height: 1.1;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    /* Buttons */
+    .btn{
+        font-size: 12px;
+        padding: 8px 12px;
+        margin-top: 20px ;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        display: inline-block;
+        box-shadow: 0 0 6px #d7ff00,
+                    0 0 6px #d7ff00,
+                    0 0 10px #d7ff00;
+    }
+    .btn a{
+        font-size: 16px;
+    }
+
+    /* Image container */
+    .image{
+        margin-bottom: 20px ;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .pics img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100% 100% 100% 10%;
+    }
+
+    /* Role tag */
+    .tag{
+        margin-top: 10px;
+        width: 220px;
+        height: auto;
+        font-size: 18px;
+        padding: 10px;
+        margin: 15px auto 0;
+        text-align: center;
+    }
+
+    /* Navbar mobile menu */
+    .navbar-links p{
+        font-size: 14px;
+        margin: 12px 0;
+    }
+
+    .navbar h1{
+        font-size: 25px;
+    }
+
+    /* Ensure nothing exceeds screen width */
+    *{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
 
 /*About page */
 
@@ -288,6 +422,50 @@ body{
          margin-left: 10px;
   }
 }
+@media screen and (max-width: 340px){
+
+    body{
+        overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+    .im {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .im-one img,
+  .im-two img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+  }
+  .im-one img{
+    border-radius: 100% 100% 10% 100%;
+    margin-top: -910px;
+    margin-left: 20px;
+  }
+  .im-two img {
+    margin-left: 170px;
+    margin-top: -135px;
+    border-radius: 100% 100% 100% 10%;
+  }
+  .im{
+        
+         margin-left: 10px;
+  }
+  .me {
+    font-size: 38px; /* smaller font size for name */
+    text-align: center;
+    margin-top: 190px;
+
+  }
+
+    *{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
 /*resume page*/
 
 .cation{
@@ -383,9 +561,9 @@ body{
      margin-left: 760px;
 }
 .all{
-    display: flex;
+     display: flex;
      margin-left: 850px;
-     margin-top: -65px;
+     margin-top: -75px;
 }
 
 .tech{
@@ -463,6 +641,23 @@ body{
         font-size: 18px;
         margin-bottom: 30px;
         margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 340px){
+
+    body{
+        overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+    .all{
+       justify-content: center;
+    }
+    .skills h3{
+        margin-left: -6px;
+    }
+    .download{
+        margin-top: 5px;
+        margin-left: -10px;
     }
 }
 
@@ -605,6 +800,67 @@ body{
 
     .cards p {
         font-size: 13px;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 340px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 60%;                 /* card width */
+        background-color: #212121;
+        padding: 16px;
+        margin: 25px 25px 25px 25px;   /* center + bottom 20px */
+        border: 1px;
+        box-shadow: 0 0 10px #899900,
+                    0 0 10px #899900,
+                    0 0 10px #899900;
+        color: white;
+        border-radius: 5px 30px 30px 30px;
+        transition: transform 0.3s ease;
+        transform-origin: center;
+    }
+    
+    /* 🔥 Bulging Effect with PERFECT margins */
+    .card-1.active,
+    .card-2.active,
+    .card-3.active {
+        transform: scale(1.05);     /* bulge */
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+        margin-bottom: 25px !important;
+        width: calc(60% - 0px);     /* prevent pushing due to scale */
+    }
+
+    .cards img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cards button {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+        margin-top: 12px;
+        display: block;
+    }
+
+    .cards p {
+        font-size: 12px;
         text-align: justify;
     }
 }
@@ -751,83 +1007,92 @@ input, textarea, button {
     color: white;
     padding: 10px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 340px) {
 
   /* Contact heading */
   .contact h3 {
-    font-size: 50px;
-    margin-left: 70px;
-    margin-top: 20px;
-    text-align: center;
+    font-size: 32px;
+    margin: 10px 0 10px 0;
+    margin-left: 75px;
   }
 
-  /* Brands container */
+
+ .num, .mail, .in, .hub {
+      width: 85%;                     /* reduced size */
+      margin: 0 auto 12px auto;       /* centered */
+      padding: 10px;                  /* smaller padding */
+      font-size: 10px;                /* reduced text size */
+      text-align: center;
+      border-radius: 12px;
+
+      box-shadow: 0 0 6px #899900,
+                  0 0 6px #899900,
+                  0 0 8px #899900;   
+     margin-left:-150px ; 
+     margin-right: 150px; 
+  }
+
+  /* Icons (smaller) */
+  .num i, .mail i, .in i, .hub i {
+      margin-right: 6px;
+      font-size: 12px;                /* smaller icons */
+  }
+
+  /* Mail text wrap */
+  .mail a {
+      font-size: 10px;
+      word-break: break-word;
+  }
+
+  /* Brands container alignment */
   .brands {
-    margin: 20px 10px 0 10px;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px; /* equal spacing between boxes */
-    margin-left: 70px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
   }
 
-  /* Cards inside brands */
-  .num, .mail, .in, .hub {
-    margin: 0;
-    padding: 15px;
-    width: 100%;
-    text-align: center;
-    box-shadow: 0 0 8px #899900,
-                0 0 8px #899900,
-                0 0 8px #899900;
-    border-radius: 15px;
-  }
 
-  /* Form container */
+
+  /* Form — 60% width */
   #contactForm {
-    margin: 20px 10px;
-    padding: 15px;
-    width: 70%;
-    margin-top: 380px;
+    width: 60%;
+    margin: 20px auto;
+    padding: 12px;
     box-shadow: 0 0 8px #899900,
                 0 0 8px #899900,
                 0 0 8px #899900;
-    border-radius: 15px;
-    margin-left: 65px;
-    position: relative;
+    border-radius: 12px;
+    margin-top: 300px;
   }
 
-  /* Form inputs and textarea */
   #contactForm input,
   #contactForm textarea {
     width: 100%;
-    height: 25;
-    margin: 8px 0;
+    margin: 6px 0;
+    font-size: 12px;
   }
 
-  #contactForm textarea{
-    height: 60px;
+  #contactForm textarea {
+    height: 70px;
   }
 
-  /* Form button */
   #contactForm button {
-    width: 50%;
-    margin-left: 0;
-    padding: 10px;
-    font-size: 14px;
-    cursor: pointer;
-  }
-}
-
-/*media queries*/
-
-@media screen and (max-width: 700px){
-    .navbar-menu-toggle{
+    width: 70%;
+    margin: 10px auto 0 auto;
+    padding: 8px;
+    font-size: 13px;
     display: block;
   }
-   .navbar-links{
+
+  /* Navbar */
+  .navbar-menu-toggle {
+    display: block;
+  }
+
+  .navbar-links {
     display: none;
   }
-  
 }
