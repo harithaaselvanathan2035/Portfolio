@@ -238,7 +238,7 @@ body{
     }
 }
 /* Ultra–small screens: fit entire layout inside one screen */
-@media screen and (max-width: 340px){
+@media screen and (max-width: 380px){
 
     body{
         overflow-x: hidden; /* Prevent horizontal scroll */
@@ -422,7 +422,7 @@ body{
          margin-left: 10px;
   }
 }
-@media screen and (max-width: 340px){
+@media screen and (max-width: 380px){
 
     body{
         overflow-x: hidden; /* Prevent horizontal scroll */
@@ -644,7 +644,7 @@ body{
     }
 }
 
-@media screen and (max-width: 340px){
+@media screen and (max-width: 380px){
 
     body{
         overflow-x: hidden; /* Prevent horizontal scroll */
@@ -803,7 +803,7 @@ body{
         text-align: justify;
     }
 }
-@media screen and (max-width: 340px){
+@media screen and (max-width: 380px){
 
     body{
         overflow-x: hidden;
@@ -1007,7 +1007,7 @@ input, textarea, button {
     color: white;
     padding: 10px;
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 380px) {
 
   /* Contact heading */
   .contact h3 {
